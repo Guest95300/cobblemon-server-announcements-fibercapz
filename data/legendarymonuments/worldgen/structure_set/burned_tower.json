@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:burned_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 929725,
+    "spread_type": "triangular",
+    "spacing": 225,
+    "separation": 125
+  }
+}

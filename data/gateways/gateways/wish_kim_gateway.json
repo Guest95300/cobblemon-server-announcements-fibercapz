@@ -1,0 +1,88 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 10,
+	"size": "medium",
+	"color": "#CF9730",
+	"leash_range": 64,
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 12,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.5
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+						"DeathLootTable": "/"
+					}
+				}
+				
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.3
+				}
+			],
+			"max_wave_time": 24000,
+			"setup_time": 300
+		},
+				{
+			"entities": [
+				{
+					"entity": "minecraft:warden",
+					"count": 1,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.5
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Remnant\",\"color\":\"dark_blue\",\"bold\":true}"
+					}
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				},
+				{
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 1.5
+                }
+			],
+			"max_wave_time": 12000,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+		{
+    		"type": "gateways:experience",
+    		"experience": 300,
+    		"orb_size": 2
+		}
+    ],
+    "failures": [
+    ]
+}

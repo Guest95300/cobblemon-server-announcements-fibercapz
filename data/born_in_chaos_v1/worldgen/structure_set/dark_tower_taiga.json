@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "born_in_chaos_v1:dark_tower_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0,
+    "spacing": 75,
+    "separation": 10,
+    "salt": 593635684
+  }
+}

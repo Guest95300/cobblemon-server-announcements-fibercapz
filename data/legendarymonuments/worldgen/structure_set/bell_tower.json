@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "legendarymonuments:bell_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1529725,
+    "spread_type": "triangular",
+    "spacing": 205,
+    "separation": 155
+  }
+}

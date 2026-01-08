@@ -1,0 +1,3 @@
+execute as @e[predicate=cobblecapz:kim_gateway_2,type=gateways:normal_gateway] at @s run tp @a[tag=!Jirachi,distance=48..60] ^ ^ ^5 facing entity @s
+execute as @e[predicate=cobblecapz:kim_gateway_2,type=gateways:normal_gateway] at @s if score @s gatewayplayercount matches 3.. run spreadplayers ~ ~ 0 75 false @a[tag=!Jirachi,distance=3..48]
+schedule function cobblecapz:special_gateway_func/rebound 5t

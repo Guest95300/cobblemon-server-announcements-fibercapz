@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "cobbletwo:pinkan_island",
+  "features": "artifacts:underground_campsite",
+  "step": "underground_structures"
+}

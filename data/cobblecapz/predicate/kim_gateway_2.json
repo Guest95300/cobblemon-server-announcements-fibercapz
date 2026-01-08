@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{gate: \"gateways:wish_kim_gateway_2\"}"
+  }
+}

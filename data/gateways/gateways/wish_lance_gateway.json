@@ -1,0 +1,114 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 10,
+	"size": "medium",
+	"color": "#51414F",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "enderman",
+					"count": 3
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.3
+				}
+			],
+			"max_wave_time": 12000,
+			"setup_time": 300
+		},
+				{
+			"entities": [
+				{
+					"entity": "minecraft:ravager",
+					"count": 2,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.3
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					]}
+				},
+				{
+					"entity": "enderman",
+					"count": 1
+				},
+				{
+					"entity": "evoker",
+					"count": 1,
+					"nbt": {
+						"DeathLootTable": "/"
+					}
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.1
+				},
+				{
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 1.3
+                }
+			],
+			"max_wave_time": 12000,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:sprocket",
+				"count": 3
+			},
+			"nbt": {
+				"Glowing": 1
+			}
+        },
+				{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "cobblemon:exp_candy_xl",
+				"count": 7
+			},
+			"nbt": {
+				"Glowing": 1
+			}
+        },
+				{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "minecraft:shulker_box",
+				"count": 1
+			},
+			"nbt": {
+				"Glowing": 1
+			}
+        },
+				{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:bevel",
+				"count": 10
+			},
+			"nbt": {
+				"Glowing": 1
+			}
+        }
+    ],
+    "failures": [
+    ]
+}

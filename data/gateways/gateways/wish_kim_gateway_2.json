@@ -1,0 +1,175 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 64,
+	"size": "medium",
+	"color": "#CF9730",
+	"leash_range": 128,
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:ghast",
+					"count": 5,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.25
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"Tags": [
+						"dis-ghast"
+					],
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Disappearing Ghast\",\"color\":\"white\",\"bold\":false}",
+					"Silent": "1b"
+					}
+				},
+				{
+					"entity": "minecraft:blaze",
+					"count": 2,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.8
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"Tags": [
+						"dis-ghast"
+					],
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Disappearing Blaze\",\"color\":\"white\",\"bold\":false}",
+					"Silent": "1b"
+					}
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 3.5
+				}
+			],
+			"max_wave_time": 24000,
+			"setup_time": 300
+		},
+				{
+			"entities": [
+				{
+					"entity": "minecraft:warden",
+					"count": 1,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.8
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Remnant\",\"color\":\"dark_blue\",\"bold\":true}"
+					}
+				},
+				{
+					"entity": "minecraft:ghast",
+					"count": 10,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.25
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"Tags": [
+						"dis-ghast"
+					],
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Disappearing Ghast\",\"color\":\"white\",\"bold\":false}",
+					"Silent": "1b"
+					}
+				},
+				{
+					"entity": "minecraft:blaze",
+					"count": 5,
+					"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.25
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"DeathLootTable": "/",
+					"Tags": [
+						"dis-ghast"
+					],
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Disappearing Blaze\",\"color\":\"white\",\"bold\":false}",
+					"Silent": "1b"
+					}
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.15
+				},
+				{
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 1.3
+                }
+			],
+			"max_wave_time": 12000,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+		{
+    		"type": "gateways:experience",
+    		"experience": 300,
+    		"orb_size": 2
+		},
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ],
+    "failures": [
+				{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ]
+}

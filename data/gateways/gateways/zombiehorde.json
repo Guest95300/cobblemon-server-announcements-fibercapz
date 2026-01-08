@@ -1,0 +1,68 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 10,
+	"size": "medium",
+	"color": "#195220",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 8
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_fisherman",
+					"count": 3
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 400
+		},
+				{
+			"entities": [
+				{
+					"entity": "minecraft:zombie",
+					"count": 5
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_fisherman",
+					"count": 3
+				},
+				{
+					"entity": "born_in_chaos_v1:barrel_zombie",
+					"count": 5
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 200
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:bevel",
+				"count": 12
+			},
+			"nbt": {
+				"Glowing": 1
+			}
+        }
+    ],
+    "failures": [
+    ]
+}

@@ -1,0 +1,68 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 3,
+	"size": "small",
+	"color": "#D6D2CB",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:skeleton",
+					"count": 10,
+					"nbt": {
+						"HandItems": [
+							{
+								"id": "iron_sword"
+							}
+						],
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.75
+								}
+							}
+					},
+					"modifiers": [
+						{
+    						"type": "gateways:gear_set",
+    						"gear_set": "gateways:iron"
+						}
+					],
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.18
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 600
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:bevel",
+				"count": 7
+			},
+			"components": {
+				"Glowing": 1
+			}
+        },
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ],
+    "failures": [
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ]
+}

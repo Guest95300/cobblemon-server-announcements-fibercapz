@@ -1,0 +1,213 @@
+{
+	"player_damage_only": true,
+	"spawn_range": 3,
+	"size": "medium",
+	"color": "#950606",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 1,
+					"nbt": {
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:panics"
+							], 
+						"attributes": 
+						[
+							{
+								"base": "124.0d", 
+								"id": "minecraft:generic.max_health"
+							}, 
+							{
+								"modifiers": [
+									{
+										"amount": "0.034852559540902876d", 
+										"id": "minecraft:random_spawn_bonus", 
+										"operation": "add_multiplied_base"
+									}
+								], 
+								"base": "32.0d", 
+								"id": "minecraft:generic.follow_range"
+							}, 
+							{
+								"base": "0.6d", 
+								"id": "minecraft:generic.step_height"
+							}, 
+							{
+								"base": "0.0d", 
+								"id": "minecraft:generic.oxygen_bonus"
+							}, 
+							{
+								"base": "20.0d", 
+								"id": "minecraft:generic.attack_damage"
+							}, 
+							{
+								"base": "0.7d", 
+								"id": "minecraft:generic.movement_speed"
+							}, 
+							{
+								"base": "20.0d", 
+								"id": "minecraft:generic.armor_toughness"
+							}, 
+							{
+								"base": "30.0d", 
+								"id": "minecraft:generic.armor"
+							}
+						], 
+						"IsAggressive": "1b", 
+						"Pokemon": {
+							"HeldItemVisible": "1b", 
+							"Tradeable": "1b", 
+							"PersistentData": {}, 
+							"Gender": "GENDERLESS", 
+							"HealingTimer": 60, 
+							"Friendship": 140, 
+							"GmaxFactor": "0b", 
+							"CaughtBall": "cobblemon:poke_ball", 
+							"ScaleModifier": "1.5f", 
+							"FormId": "normal", 
+							"UUID": [-1826496462, -1069005224, -1280044119, -1752394484], 
+							"Shiny": "0b", 
+							"Species": "cobblemon:groudon", 
+							"cobblemon:data_version": 2, 
+							"Ability": {
+								"AbilityIndex": 0, 
+								"AbilityName": "drought"
+							}, 
+							"Nature": "cobblemon:docile", 
+							"BenchedMoves": [], 
+							"EVs": {
+								"cobblemon:special_attack": 0, 
+								"cobblemon:attack": 0, 
+								"cobblemon:hp": 0, 
+								"cobblemon:defence": 0, 
+								"cobblemon:special_defence": 0, 
+								"cobblemon:speed": 0
+							}, 
+							"PokemonOriginalTrainerType": "NONE", 
+							"TeraType": "cobblemon:ground", 
+							"Health": 970, 
+							"MoveSet": [
+								{
+									"RaisedPPStages": 0, 
+									"MoveName": "eruption", 
+									"MovePP": 5
+								}, 
+								{
+									"RaisedPPStages": 0, 
+									"MoveName": "solarbeam", 
+									"MovePP": 10
+								}, 
+								{
+									"RaisedPPStages": 0, 
+									"MoveName": "fireblast", 
+									"MovePP": 5
+								}, 
+								{
+									"RaisedPPStages": 0, 
+									"MoveName": "rest", 
+									"MovePP": 5
+								}
+							], 
+							"FaintedTimer": -1, 
+							"IVs": {
+								"HyperTrained": {}, 
+								"Base": {
+									"cobblemon:special_attack": 18, 
+									"cobblemon:attack": 2, 
+									"cobblemon:defence": 27, 
+									"cobblemon:hp": 20, 
+									"cobblemon:special_defence": 27, 
+									"cobblemon:speed": 15
+									}
+								}, 
+								"HeldItemDroppableByAI": "1b", 
+								"DmaxLevel": 0, 
+								"Evolutions": {
+									"progress": [], 
+									"pending": []
+								}, 
+								"Experience": 33750000, 
+								"Level": 300}, 
+								"PoseType": "STAND", 
+								"Config": {
+									"melee_cooldown": "20.0d", 
+									"water_wander_chance": "0.016666668d", 
+									"can_stand_on_powder_snow": "0.0d", 
+									"immune_to_sweet_berry_bush_block": "0.0d", 
+									"swim_circling_speed": "2.3d", 
+									"min_swim_circling_angular_velocity": "0.0d", 
+									"wander_chance": "0.008333334d", 
+									"float_chance": "0.8d", 
+									"panic_when_hurt": "1.0d", 
+									"see_distance": "15.0d", 
+									"walk_speed": "0.35d", 
+									"melee_range": "0.75d", 
+									"horizontal_wander_range": "10.0d", 
+									"look_at_entity_types": "", 
+									"flee_desired_distance": "9.0d", 
+									"can_float": "1.0d", 
+									"wanders": "1.0d", 
+									"pickup_items": [], 
+									"panic_on_passive_damage": "0.0d", 
+									"flee_nearest_hostile": "1.0d", 
+									"water_wanders": "1.0d", 
+									"max_swim_circling_angular_velocity": "1.0d", 
+									"attacks_melee": "1.0d", 
+									"can_path_through_sacc_leaves": "0.0d", 
+									"vertical_wander_range": "5.0d", 
+									"flee_speed_multiplier": "0.5d", 
+									"attacking_movement_speed": "0.5d"
+									}, 
+									"BehavioursAreCustom": "0b", 
+									"BehaviourFlags": "0b"},
+					"modifiers": [
+					],
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:bevel",
+				"count": 9
+			},
+			"components": {
+				"Glowing": 1
+			}
+        },
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ],
+    "failures": [
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ]
+}
