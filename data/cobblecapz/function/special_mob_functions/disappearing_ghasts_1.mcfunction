@@ -4,4 +4,4 @@ effect give @s minecraft:invisibility 4 0 true
 data merge entity @s {Silent:1b}
 scale set pehkui:projectiles 5 @s
 effect clear @a[distance=..25] minecraft:fire_resistance
-scoreboard players reset @s dis.ghast
+scoreboard players set @s dis.ghast 2
