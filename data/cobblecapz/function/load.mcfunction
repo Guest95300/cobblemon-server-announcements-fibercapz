@@ -8,12 +8,20 @@ schedule function cobblecapz:special_gateway_func/rebound 5t
 
 
 
+
+
+
+
+
+
+
+
+
 team add Groudon 
 team modify Groudon color dark_red
 
-team add Kyogre 
+team add Kyogre
 team modify Kyogre color dark_blue
-
 
 team add Ceru
 team modify Ceru color dark_purple
@@ -21,8 +29,7 @@ team modify Ceru color dark_purple
 team add Arma
 team modify Arma color gold
 
-
-team add Rickygoon 
+team add Rickygoon
 team modify Rickygoon color dark_gray
 
 team add Rickygoob
@@ -33,8 +40,6 @@ team modify Ricky color white
 
 team add Rickymax
 team modify Rickymax color red
-
-
 
 team add dogone
 team modify dogone color black
@@ -47,8 +52,6 @@ team modify bodydog color red
 
 team add bigdog
 team modify bigdog color dark_red
-
-
 
 team add mime
 team modify mime color white
