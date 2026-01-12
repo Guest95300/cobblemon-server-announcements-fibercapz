@@ -1,0 +1,2 @@
+schedule function cobblecapz:gateways/the_eruption/loop_1s 1s
+function cobblecapz:gateways/the_eruption/fireball_rain

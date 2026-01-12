@@ -1,0 +1,3 @@
+scoreboard players add @e[type=minecraft:marker,tag=boss_fireball_rain] boss_fireball_rain 1
+execute as @e[scores={boss_fireball_rain=5},type=minecraft:marker,tag=boss_fireball_rain] at @s run function cobblecapz:gateways/the_eruption/rain_fireball
+execute as @e[scores={boss_fireball_rain=3},type=minecraft:marker,tag=boss_fireball_rain] at @s run playsound minecraft:entity.generic.extinguish_fire neutral @a ~ ~ ~ 2 1.5 1

@@ -2,12 +2,20 @@ scoreboard objectives add boss_fireball_rain dummy
 scoreboard objectives add dis.ghast dummy
 scoreboard objectives add gatewayplayercount dummy
 
-schedule function cobblecapz:special_mob_functions/disappearing_ghasts 1s
-schedule function cobblecapz:at_specific_gateway 3s
-schedule function cobblecapz:special_gateway_func/rebound 5t
+
+#Enabled gateway raids. Add # before command to disable the underlying mechanics of that gateway.
+
+#schedule function cobblecapz:gateways/disappearing_ghasts/disappearing_ghasts 1s
+function cobblecapz:gateways/disappearing_ghasts/enabled
+function cobblecapz:gateways/the_eruption/enabled
+
+#General gateway mechanics. Do not disable.
+schedule function cobblecapz:gatewayraid_rebound 5t
+schedule function cobblecapz:at_gateway 10t
 
 
-team add Groudon 
+
+team add Groudon
 team modify Groudon color dark_red
 
 team add Kyogre
