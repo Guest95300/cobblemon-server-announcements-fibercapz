@@ -32,6 +32,12 @@ execute as @s if entity @s[tag=mime] run function cobblecapz:gateways/circus/pok
 execute as @s if entity @s[tag=rime] run function cobblecapz:gateways/circus/pokemon/rime
 execute as @s if entity @s[tag=wise] run function cobblecapz:gateways/circus/pokemon/wise
 
-
+execute as @s if entity @s[tag=char1] run function cobblecapz:gateways/dragon_raid/pokemon/char1 
+execute as @s if entity @s[tag=char2] run function cobblecapz:gateways/dragon_raid/pokemon/char2
+execute as @s if entity @s[tag=hax1] run function cobblecapz:gateways/dragon_raid/pokemon/hax1
+execute as @s if entity @s[tag=hax2] run function cobblecapz:gateways/dragon_raid/pokemon/hax2
+execute as @s if entity @s[tag=mega1] run function cobblecapz:gateways/dragon_raid/pokemon/mega1 
+execute as @s if entity @s[tag=mega2] run function cobblecapz:gateways/dragon_raid/pokemon/mega2
+execute as @s if entity @s[tag=bigdragon] run function cobblecapz:gateways/dragon_raid/pokemon/bigdragon
 
 tag @s add Gatewaypokemon_marked
