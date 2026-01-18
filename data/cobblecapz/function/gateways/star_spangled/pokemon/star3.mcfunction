@@ -1,0 +1,5 @@
+data merge entity @s[tag=star3] {NoAI:0b, Pokemon:{PokemonData: ["uncatchable", "uncatchable", "uncatchable"], ScaleModifier: 3.0f, Marks:["cobblemon:mark_personality_vigor"], Species:"cobblemon:starmie", Shiny: 1b, Features: [{"cobblemon:feature_id": "mega_evolution", mega_evolution: "mega"}], Health: 1645, MoveSet: [{RaisedPPStages: 0, MoveName: "psystrike", MovePP: 10}, {RaisedPPStages: 0, MoveName: "expandingforce", MovePP: 10}, {RaisedPPStages: 0, MoveName: "flamethrower", MovePP: 15}, {RaisedPPStages: 0, MoveName: "allyswitch", MovePP: 15}], Experience: 19531250, Level: 250},"DeathLootTable": "/"}
+team join star3 @s[tag=star3]
+effect give @s[tag=star3] minecraft:glowing 20 0 true
+attribute @s[tag=star3] minecraft:generic.max_health base set 300
+effect give @s[tag=star3] minecraft:instant_health 1 10 true

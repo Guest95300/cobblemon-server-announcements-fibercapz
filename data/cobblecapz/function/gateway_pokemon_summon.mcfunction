@@ -40,4 +40,16 @@ execute as @s if entity @s[tag=mega1] run function cobblecapz:gateways/dragon_ra
 execute as @s if entity @s[tag=mega2] run function cobblecapz:gateways/dragon_raid/pokemon/mega2
 execute as @s if entity @s[tag=bigdragon] run function cobblecapz:gateways/dragon_raid/pokemon/bigdragon
 
+execute as @s if entity @s[tag=star1] run function cobblecapz:gateways/star_spangled/pokemon/star1 
+execute as @s if entity @s[tag=star2] run function cobblecapz:gateways/star_spangled/pokemon/star2
+execute as @s if entity @s[tag=star3] run function cobblecapz:gateways/star_spangled/pokemon/star3
+
+execute as @s if entity @s[tag=tinka] run function cobblecapz:gateways/tinking_anger/pokemon/tinka
+
+execute as @s if entity @s[tag=trike] run function cobblecapz:gateways/gentle_giant/pokemon/trike
+
+execute as @s if entity @s[tag=fetch1] run function cobblecapz:gateways/flock_attack/pokemon/fetch1
+execute as @s if entity @s[tag=fetch2] run function cobblecapz:gateways/flock_attack/pokemon/fetch2
+execute as @s if entity @s[tag=fetch3] run function cobblecapz:gateways/flock_attack/pokemon/fetch3
+
 tag @s add Gatewaypokemon_marked

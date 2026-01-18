@@ -3,7 +3,7 @@
 	"leash_range": 96,
 	"spawn_range": 30,
 	"size": "medium",
-	"color": "#890820",
+	"color": "#000000",
 	"waves": [
 		{
 			"entities": [

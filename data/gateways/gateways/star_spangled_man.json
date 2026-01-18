@@ -3,17 +3,17 @@
 	"leash_range": 96,
 	"spawn_range": 30,
 	"size": "medium",
-	"color": "#890820",
+	"color": "#413A85",
 	"waves": [
 		{
 			"entities": [
 				{
 					"entity": "cobblemon:pokemon",
-					"count": 3,
+					"count": 15,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"mime"
+							"star1"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 
@@ -71,7 +71,7 @@
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"rime"
+							"star2"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 
@@ -137,7 +137,7 @@
 		{
 			"entities": [
 				{
-					"entity": "born_in_chaos_v1:zombie_clown",
+					"entity": "minecraft:drowned",
 					"count": 2,
 					"nbt": {
 						"pehkui:scale_data_types": {
@@ -161,24 +161,12 @@
 					"finalize_spawn": false
 				},
 				{
-					"entity": "minecraft:bogged",
-					"count": 3,
-					"nbt": {
-						"pehkui:scale_data_types": {
-							"pehkui:base": {
-								"scale": 1.10
-								}
-							}
-							},
-					"finalize_spawn": false
-				},
-				{
 					"entity": "cobblemon:pokemon",
-					"count": 2,
+					"count": 5,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"mime"
+							"star1"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 
@@ -244,7 +232,7 @@
 		{
 			"entities": [
 				{
-					"entity": "born_in_chaos_v1:zombie_clown",
+					"entity": "minecraft:drowned",
 					"count": 5,
 					"nbt": {
 						"pehkui:scale_data_types": {
@@ -257,19 +245,7 @@
 				},
 								{
 					"entity": "minecraft:stray",
-					"count": 6,
-					"nbt": {
-						"pehkui:scale_data_types": {
-							"pehkui:base": {
-								"scale": 1.10
-								}
-							}
-							},
-					"finalize_spawn": false
-				},
-				{
-					"entity": "minecraft:bogged",
-					"count": 6,
+					"count": 5,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
@@ -281,11 +257,11 @@
 				},
 				{
 					"entity": "cobblemon:pokemon",
-					"count": 2,
+					"count": 10,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"rime"
+							"star2"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 
@@ -356,7 +332,7 @@
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"wise"
+							"star3"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 

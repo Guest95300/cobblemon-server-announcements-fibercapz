@@ -64,3 +64,23 @@ team add mega2
 team modify mega2 color dark_blue
 team add bigdragon
 team modify bigdragon color gold
+
+team add star1
+team modify star1 color gold
+team add star2
+team modify star2 color blue
+team add star3
+team modify star3 color dark_purple
+
+team add tinka
+team modify tinka color gold
+
+team add trike
+team modify trike color black
+
+team add fetch1
+team modify fetch1 color black
+team add fetch2
+team modify fetch2 color black
+team add fetch3
+team modify fetch3 color white
